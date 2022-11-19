@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".info_frag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="258dp"
+            android:layout_height="78dp"
+            android:fontFamily="cursive"
+            android:text="Meditation"
+            android:textAlignment="center"
+            android:textColor="#366864"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="390dp"
+            android:layout_height="419dp"
+            android:fontFamily="monospace"
+            android:text="At its simplest, meditation is being present in the moment.
+            When you are present in the moment you no longer worry about what happened in the past or what might go wrong in the future.
+That’s why your breath is a good focus.
+Unless you’ve mastered time travel, you can’t breathe in the past or in the future,You can only breathe in the present moment.
+Focusing on your breath will keep you there.
+Staying present in the moment helps you stay balanced in our imbalanced world, which is meditation’s main purpose."
+            android:textAlignment="textStart"
+            android:textColor="#78032B"
+            android:textSize="20dp"
+            android:background="#6FFAE1DD"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.903" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

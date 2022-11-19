@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Music_frag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="216dp"
+            android:fontFamily="cursive"
+            android:rotation="270"
+            android:text="Music library"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="270dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginStart="195dp"
+                            android:text="19:20 min" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="194dp"
+                            android:layout_height="71dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="monospace"
+                            android:text="Relaxation music part:1"
+                            android:textAlignment="center"
+                            android:textColor="#669BBC"
+                            android:textStyle="bold"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/start1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="205dp"
+                            android:layout_marginTop="28dp"
+                            android:src="@drawable/start_icon" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="270dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginStart="195dp"
+                            android:text="19:52 min" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="194dp"
+                            android:layout_height="71dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="monospace"
+                            android:text="Relaxation music part:2"
+                            android:textAlignment="center"
+                            android:textColor="#669BBC"
+                            android:textStyle="bold"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/start2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="205dp"
+                            android:layout_marginTop="28dp"
+                            android:src="@drawable/start_icon" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="270dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginStart="195dp"
+                            android:text="18:08 min" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="194dp"
+                            android:layout_height="71dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="monospace"
+                            android:text="Relaxation music part:3"
+                            android:textAlignment="center"
+                            android:textColor="#669BBC"
+                            android:textStyle="bold"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/start3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="205dp"
+                            android:layout_marginTop="28dp"
+                            android:src="@drawable/start_icon"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="270dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginStart="195dp"
+                            android:text="17:44 min"/>
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="194dp"
+                            android:layout_height="71dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="monospace"
+                            android:text="Relaxation music part:4"
+                            android:textAlignment="center"
+                            android:textColor="#669BBC"
+                            android:textStyle="bold"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/start4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="205dp"
+                            android:layout_marginTop="28dp"
+                            android:src="@drawable/start_icon"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="270dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginStart="195dp"
+                            android:text="19:44 min" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="194dp"
+                            android:layout_height="71dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="monospace"
+                            android:text="Relaxation music part:5"
+                            android:textAlignment="center"
+                            android:textColor="#669BBC"
+                            android:textStyle="bold"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/start5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="205dp"
+                            android:layout_marginTop="28dp"
+                            android:src="@drawable/start_icon"/>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

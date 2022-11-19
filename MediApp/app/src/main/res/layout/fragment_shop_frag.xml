@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="cursive"
+        android:text="Medi Shop"
+        android:textColor="@color/purple_700"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:background="@drawable/bg"
+        android:layout_marginTop="110dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/addToCart"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shopping_cart" />
+
+</FrameLayout>

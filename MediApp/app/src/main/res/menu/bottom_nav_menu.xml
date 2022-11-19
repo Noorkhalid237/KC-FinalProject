@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/homeicon"
+        android:id="@+id/home"/>
+
+    <item android:title="Shopping"
+        android:icon="@drawable/shopping_basket_icon"
+        android:id="@+id/shopping"/>
+
+    <item android:title="Music"
+        android:icon="@drawable/music"
+        android:id="@+id/music"/>
+
+    <item android:title="info"
+        android:icon="@drawable/info_icon"
+        android:id="@+id/info"/>
+
+    <item android:title="Logout"
+        android:icon="@drawable/logouticon"
+        android:id="@+id/logout"/>
+
+</menu>

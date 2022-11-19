@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/addd"
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="345dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="13dp"
+                app:srcCompat="@drawable/add_shopping_cart" />
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="231dp"
+                android:layout_marginBottom="1dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="194dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="22dp"
+                android:text="hii"
+                android:textAlignment="center"
+                android:textColor="#723D46"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="186dp"
+                android:layout_height="47dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="8dp"
+                android:text="Price:2"
+                android:textColor="#723D46"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

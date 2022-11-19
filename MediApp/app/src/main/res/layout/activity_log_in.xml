@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bk2"
+    android:layout_height="match_parent"
+    tools:context=".Log_In">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="156dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="460dp"
+        android:fontFamily="monospace"
+        android:text="Log in"
+        android:textAlignment="center"
+        android:textColor="#78032B"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/emailLog"
+        android:layout_width="245dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="330dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#179298"
+        android:textColorHint="#179298"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/passLog"
+        android:layout_width="247dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="243dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#179298"
+        android:textColorHint="#179298"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:text="" />
+
+    <Button
+        android:id="@+id/logL"
+        android:layout_width="173dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="153dp"
+        android:backgroundTint="#07B5CC"
+        android:fontFamily="monospace"
+        android:text="Log in"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="89dp"
+        android:text="Are you new?"
+        android:textAlignment="center"
+        android:textColor="#78032B"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/newacc"
+        android:layout_width="228dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#B34A64"
+        android:text="Create new account"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
